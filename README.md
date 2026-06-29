@@ -286,5 +286,5 @@ Publish npm Package
 ## License
 
 Internal Use Only
-
+This Design Library contains proprietary Boost Bank design assets and source code. Access is restricted to authorized personnel only. Unauthorized copying, distribution, or external use is strictly prohibited. For access requests, please contact the UI/UX Lead or the Design Library Maintainer.
 © Boost Bank Design Team

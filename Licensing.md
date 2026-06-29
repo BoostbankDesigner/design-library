@@ -1,227 +1,147 @@
-# Boost Bank Design Library License Agreement
+**BOOST BANK SDN. BHD.**
 
-**Version 1.0**
-**Internal Use Only**
+**LICENSE AGREEMENT FOR BOOST BANK DESIGN RESOURCES**
 
----
+*For Digital Banking Application and Platform Uses*
 
-## IMPORTANT — PLEASE READ CAREFULLY
+Version 1.0  |  Effective Date: Jun 29 2026
 
-This Boost Bank Design Library ("Design Library") is proprietary and confidential information owned by **Boost Bank**.
+PLEASE READ THIS LICENSE AGREEMENT ("LICENSE") CAREFULLY BEFORE USING THE BOOST BANK DESIGN RESOURCES (DEFINED BELOW). BY USING THE BOOST BANK DESIGN RESOURCES, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE. IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT USE THE BOOST BANK DESIGN RESOURCES.
 
-By accessing, downloading, cloning, or using any part of this Design Library, you acknowledge that you have read, understood, and agree to comply with the terms and conditions of this License Agreement.
+**IMPORTANT NOTES**
 
-If you are not an authorized user, you must not access, copy, modify, distribute, or use any part of this Design Library.
+**- THE BOOST BANK DESIGN RESOURCES LICENSED HEREUNDER ARE TO BE USED SOLELY FOR CREATING MOCK-UPS, PROTOTYPES, AND PRODUCTION USER INTERFACES FOR SOFTWARE PRODUCTS THAT ARE PART OF OR DIRECTLY INTEGRATED WITH BOOST BANK SDN. BHD.'S AUTHORISED DIGITAL BANKING PLATFORMS, MOBILE APPLICATIONS, AND INTERNAL TOOLS.**
 
----
+**- USE OF THESE DESIGN RESOURCES BY THIRD PARTIES, VENDORS, OR CONTRACTORS IS PERMITTED ONLY UNDER A SEPARATE WRITTEN AUTHORISATION FROM BOOST BANK SDN. BHD.**
 
-# 1. Ownership
+If you are entering into this License on behalf of your company or **organisation**, **"you"** or **"your"** refers to such entity as well, and you represent that you have legal authority to bind your company or organisation to the terms of this License.
 
-The Boost Bank Design Library, including but not limited to:
+**1\. General**
 
-* UI Components
-* Design Tokens
-* Icons
-* Illustrations
-* Typography
-* Color System
-* Assets
-* Documentation
-* Storybook
-* Source Code
-* Templates
-* Design Files
-* Supporting Resources
+**A.** The Boost Bank design software, interfaces, components, content, templates, tokens, icons, typography specifications, colour palettes, spacing systems, data, and other materials accompanying this License, whether in digital files, documentation, version-controlled repositories, design tools, or any other form (collectively the "Boost Bank Design Resources") are licensed, not sold, to you by Boost Bank Sdn. Bhd. ("Boost Bank") for use only under the terms of this License. Boost Bank and/or Boost Bank's licensors retain ownership of the Boost Bank Design Resources and reserve all rights not expressly granted to you.
 
-are the exclusive intellectual property of **Boost Bank**.
+**B.** Certain typefaces, icon sets, and third-party design assets included within the Boost Bank Design Resources may be subject to separate licence agreements. Where such assets are included, their respective licence terms shall govern and take precedence over this License with respect to those specific assets only.
 
-This Design Library is licensed, **not sold**, to authorized users.
+**C.** Title and intellectual property rights in and to any content displayed by or accessed through the Boost Bank Design Resources belongs to the respective content owner. Such content may be protected by copyright, trademark, or other intellectual property laws. This License does not grant you any rights to use such content beyond what is expressly stated herein.
 
-All rights not expressly granted under this License are reserved by Boost Bank.
+**D.** The terms of this License will govern any upgrades provided by Boost Bank that replace or supplement the original Boost Bank Design Resources, unless such upgrade is accompanied by a separate license in which case the terms of that license will govern.
 
----
+**2\. Permitted License Uses and Restrictions**
 
-# 2. Authorized Use
+**A. Limited License**
 
-Access to the Design Library is restricted to:
+Subject to the terms of this License and your compliance with Boost Bank's Design Guidelines and Brand Standards, you are granted a limited, non-transferable, non-exclusive, revocable license to use the Boost Bank Design Resources solely for the following permitted purposes:
 
-* Authorized Boost Bank employees
-* Approved contractors
-* Approved vendors
-* Individuals who have received explicit written permission from the UI/UX Team
+- Creating mock-ups and prototypes of user interfaces for software products that are part of Boost Bank's authorised digital ecosystem;
 
-The Design Library may only be used for:
+- Developing, testing, and deploying production-ready user interfaces for Boost Bank's internal and customer-facing digital platforms;
 
-* Boost Bank products
-* Internal applications
-* Internal prototypes
-* Internal documentation
-* Internal design and development activities
+- Creating design documentation, handoff specifications, and design system documentation for use by Boost Bank's authorised teams and vendors;
 
-No other use is permitted.
+- Producing screen shots, images, or other visual depictions of interfaces for internal presentations, user research, and stakeholder reviews.
 
----
+You may use the Boost Bank Design Resources only for the purposes described in this License or as otherwise expressly authorised by Boost Bank in writing.
 
-# 3. Access Control
+**B. Other Use Restrictions**
 
-The Design Library is private.
+The grants set forth in this License do not permit you to, and you agree not to:
 
-Unauthorized individuals must not:
+- Use the Boost Bank Design Resources for the purpose of creating products, services, or interfaces for any entity other than Boost Bank without express prior written consent;
 
-* Access the repository
-* Access Storybook
-* Download design assets
-* Install the npm package
-* Clone the repository
-* Copy components
-* Export assets
-* Share screenshots containing proprietary implementation details
+- Embed the Boost Bank Design Resources or any component thereof into software, products, or services that are commercially distributed outside of Boost Bank's authorised platforms;
 
-Access credentials must never be shared with others.
+- Use the Boost Bank Design Resources to create, develop, display or otherwise distribute any artwork, website content, marketing materials, or work product that misrepresents affiliation with or endorsement by Boost Bank;
 
----
+- Make the Boost Bank Design Resources available over a public network or repository where they could be accessed by unauthorised parties;
 
-# 4. Restrictions
+- Rent, lease, lend, trade, transfer, sell, sublicense, or otherwise redistribute the Boost Bank Design Resources in any unauthorised way, or enable others to do so.
 
-Unless expressly approved in writing by Boost Bank, you may **not**:
+**C. Template and Component Content**
 
-* Redistribute the Design Library
-* Publish the Design Library publicly
-* Upload any portion to public repositories
-* Share components with external organizations
-* Resell any part of the Design Library
-* Modify and redistribute the Design Library as another product
-* Remove copyright notices
-* Reverse engineer internal tooling
-* Create derivative design systems based on this library for external use
+The Boost Bank Design Resources contain content such as UI components, design tokens, icons, illustrations, colour definitions, typography scales, spacing systems, and similar assets (individually and collectively, the "Template Content"). To the extent that you share deliverables created using the Template Content with any other party (including vendors or contractors), you agree to:
 
----
+- Ensure that each such recipient is aware of the restrictions set forth in this License;
 
-# 5. Confidentiality
+- Ensure that recipients use the Template Content only within the scope of work authorised by Boost Bank;
 
-The Design Library contains confidential and proprietary information.
+- Not permit recipients to extract, copy, modify, distribute, or repackage the Template Content as standalone assets, clip art, stock elements, or similar.
 
-All users agree to:
+**D. No Reverse Engineering; Limitations**
 
-* Maintain confidentiality
-* Prevent unauthorized disclosure
-* Protect source code and design assets
-* Follow Boost Bank security policies
+You may not, and you agree not to or to enable others to, copy (except as expressly permitted by this License), decompile, reverse engineer, disassemble, attempt to derive the source structure of, decrypt, modify, or create derivative works of the Boost Bank Design Resources or any part thereof, except to the extent any foregoing restriction is prohibited by applicable law.
 
-Any unauthorized disclosure may result in disciplinary action and legal consequences.
+**E. Compliance with Laws**
 
----
+You agree to use the Boost Bank Design Resources in compliance with all applicable laws and regulations, including local laws of Malaysia and any other jurisdiction in which you access or use the Boost Bank Design Resources.
 
-# 6. Third-Party Access
+**3\. Intellectual Property Ownership**
 
-External vendors, agencies, consultants, or partners may only access the Design Library after receiving written approval from the Boost Bank UI/UX Team.
+The Boost Bank Design Resources, including all design tokens, component libraries, brand assets, iconography, and associated documentation, are and shall remain the exclusive intellectual property of Boost Bank Sdn. Bhd. Nothing in this License transfers or assigns any intellectual property rights to you. All goodwill generated through use of the Boost Bank Design Resources shall inure solely to the benefit of Boost Bank.
 
-Temporary access may be revoked at any time.
+You acknowledge that any feedback, suggestions, or improvements you contribute regarding the Boost Bank Design Resources may be used by Boost Bank without restriction or compensation, and Boost Bank shall own all rights in such contributions.
 
----
+**4\. Confidentiality**
 
-# 7. Support & Authorization
+The Boost Bank Design Resources, including unpublished design specifications, token structures, brand guidelines, and roadmap information, constitute confidential information of Boost Bank. You agree to:
 
-Requests for:
+- Maintain the confidentiality of the Boost Bank Design Resources with at least the same degree of care you use to protect your own confidential information, but not less than reasonable care;
 
-* Repository access
-* Storybook access
-* npm package access
-* Figma Library access
-* Contribution approval
-* Technical support
+- Not disclose the Boost Bank Design Resources or any part thereof to any third party without Boost Bank's prior written consent;
 
-must be submitted to the designated Design Library contacts.
+- Limit access to the Boost Bank Design Resources to those of your employees or contractors who have a need to know for the purposes permitted under this License and who are bound by confidentiality obligations no less restrictive than those set out herein.
 
-### Approval Authority
+**5\. No Transfer or Assignment**
 
-**UI/UX Lead**
+Except as otherwise set forth herein, you may not transfer the Boost Bank Design Resources without Boost Bank's express prior written approval. This License may not be assigned by you, nor may the rights granted hereunder be transferred by you, in whole or in part, through acquisition, merger, or otherwise, without the prior written consent of a duly authorised representative of Boost Bank. Any attempted assignment in contravention of this section shall be void and of no effect.
 
-Name: **[UI/UX Lead Name]**
+**6\. Termination**
 
-Email: **[[uiuxlead@boostbank.com](mailto:uiuxlead@boostbank.com)]**
+This License shall commence upon your first access or use of the Boost Bank Design Resources. Your rights under this License will terminate automatically and without notice from Boost Bank if:
 
-Responsible for:
+- You fail to comply with any term or condition of this License;
 
-* Access approval
-* Governance
-* Design standards
-* Strategic decisions
+- You cease to be an authorised employee, contractor, or vendor of Boost Bank;
 
----
+- Boost Bank releases an updated version of this License and you do not accept its terms within the timeframe specified by Boost Bank.
 
-### Design Library Maintainer
+Upon termination of this License, you shall immediately cease all use of the Boost Bank Design Resources and destroy or return all copies, full or partial, in your possession. Sections 2B, 2D, 3, 4, and 7 through 10 of this License shall survive any termination.
 
-**UI/UX Designer**
+**7\. Disclaimer of Warranties**
 
-Name: **[Design Library Maintainer]**
+A.  YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT, TO THE EXTENT PERMITTED BY APPLICABLE LAW, USE OF THE BOOST BANK DESIGN RESOURCES IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY, AND EFFORT IS WITH YOU.
 
-Email: **[[designer@boostbank.com](mailto:designer@boostbank.com)]**
+B.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE BOOST BANK DESIGN RESOURCES ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND BOOST BANK HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE BOOST BANK DESIGN RESOURCES, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
 
-Responsible for:
+C.  BOOST BANK DOES NOT WARRANT THAT THE BOOST BANK DESIGN RESOURCES WILL MEET YOUR REQUIREMENTS, THAT OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS WILL BE CORRECTED.
 
-* Component maintenance
-* Storybook documentation
-* Design Tokens
-* npm package releases
-* Version management
-* Bug fixes
+**8\. Limitation of Liability**
 
----
+TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL BOOST BANK BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, BUSINESS INTERRUPTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE BOOST BANK DESIGN RESOURCES, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY.
 
-# 8. Contributions
+In no event shall Boost Bank's total liability to you for all damages exceed the greater of (i) the amount paid by you for access to the Boost Bank Design Resources in the twelve (12) months preceding the event giving rise to the claim, or (ii) Malaysian Ringgit Two Hundred (MYR 200.00).
 
-Only approved contributors may:
+**9\. Governing Law and Dispute Resolution**
 
-* Create components
-* Modify existing components
-* Publish releases
-* Update Design Tokens
-* Merge Pull Requests
+This License will be governed by and construed in accordance with the laws of Malaysia, without regard to its conflict of law principles. Any dispute arising out of or in connection with this License shall first be attempted to be resolved by good-faith negotiation between the parties. If not resolved within thirty (30) days, the dispute shall be submitted to the exclusive jurisdiction of the courts of Kuala Lumpur, Malaysia.
 
-All contributions must follow the Design Library contribution guidelines and pass the required review process before release.
+**10\. Complete Agreement; Amendments**
 
----
+This License constitutes the entire agreement between you and Boost Bank relating to the use of the Boost Bank Design Resources and supersedes all prior or contemporaneous understandings regarding such subject matter. No amendment to or modification of this License will be binding unless in writing and signed by a duly authorised representative of Boost Bank.
 
-# 9. Termination
+**11\. Support**
 
-Boost Bank reserves the right to revoke access at any time.
+For questions regarding this License, permissions beyond its scope, or to report misuse of the Boost Bank Design Resources, please contact:
 
-Upon termination of employment, contract completion, or revocation of authorization, users must immediately:
+For access requests, please contact:
 
-* Stop using the Design Library
-* Remove local copies
-* Delete downloaded assets
-* Remove installed private packages where required
+**UI/UX Lead**  
+Jeff Lok  
+E : jeff.lok@myboostbank.co  
+M : +60164444248  
 
----
+**Design Library Maintainer**  
+Akmal Hakim Ahmad  
+E : akmal.ahmad@myboostbank.co  
+M : +60162543268  
 
-# 10. No Warranty
-
-The Design Library is provided **"as is"** for internal use.
-
-While the UI/UX Team strives to maintain quality and consistency, Boost Bank makes no guarantee that the Design Library is free from defects or suitable for every implementation.
-
----
-
-# 11. Limitation of Liability
-
-Boost Bank shall not be liable for any damages resulting from unauthorized modification, misuse, or improper implementation of the Design Library.
-
----
-
-# 12. Updates
-
-Boost Bank may modify this License Agreement at any time without prior notice.
-
-Continued use of the Design Library constitutes acceptance of the latest version of this License.
-
----
-
-# 13. Copyright
-
-© 2026 Boost Bank. All Rights Reserved.
-
-The Boost Bank Design Library and all associated assets are confidential and proprietary.
-
-Unauthorized reproduction, distribution, disclosure, or use of any part of this Design Library is strictly prohibited.
+*BBL-DS-001  |  Version 1.0  |  © 2024 Boost Bank Sdn. Bhd. All rights reserved. | https://myboostbank.co*

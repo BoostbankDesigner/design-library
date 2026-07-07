@@ -1,219 +1,197 @@
 # Button
 
-A **Button** is a primary interactive component that allows users to trigger an action. It supports three sizes to accommodate different layouts while maintaining consistent styling and accessibility.
+The Button component is the primary interactive element used to trigger actions throughout the product. It supports multiple sizes, icon-only buttons, and configurable properties for different use cases while maintaining a consistent visual language across the Boost Design System.
 
 ---
 
-## Preview
+# Component
 
-| Small | Medium | Large |
-|-------|--------|-------|
-| 40px Height | 48px Height | 56px Height |
+**Component Name**
+`Button`
 
----
-
-## Variants
-
-### Filled Button
-
-The default button style used for primary actions.
-
-**Usage**
-
-- Submit forms
-- Confirm actions
-- Continue to the next step
-- Primary call-to-action (CTA)
+**Supported Platforms**
+- Mobile
+- Responsive Web (optional)
 
 ---
 
-## Sizes
+# Variants
 
-| Size | Height | Horizontal Padding | Corner Radius |
-|------|--------|--------------------|---------------|
-| Small | 40px | 16px | Full (999px) |
-| Medium | 48px | 20px | Full (999px) |
-| Large | 56px | 24px | Full (999px) |
+## Size
 
-> Width is determined by the button label.
+- XS
+- S
+- M
+
+Each size automatically adjusts:
+- Height
+- Horizontal padding
+- Corner radius
+- Typography
+- Icon size
 
 ---
 
-## Anatomy
+## Type
 
+### Text Button
+
+A standard button containing only a text label.
+
+Example:
 ```
-┌──────────────────────────────┐
-│        Button Label          │
-└──────────────────────────────┘
+Button Text
 ```
 
-| Element | Description |
-|---------|-------------|
-| Container | Filled background |
-| Label | Action text |
-| Padding | Horizontal spacing surrounding the label |
-| Border Radius | Fully rounded pill shape |
-
 ---
 
-## Specifications
+### Icon Button
 
-### Small
+A circular button containing only an icon.
 
-| Property | Value |
-|----------|-------|
-| Height | 40px |
-| Horizontal Padding | 16px |
-| Border Radius | 999px |
-| Typography | Button / Small |
-
----
-
-### Medium
-
-| Property | Value |
-|----------|-------|
-| Height | 48px |
-| Horizontal Padding | 20px |
-| Border Radius | 999px |
-| Typography | Button / Medium |
-
----
-
-### Large
-
-| Property | Value |
-|----------|-------|
-| Height | 56px |
-| Horizontal Padding | 24px |
-| Border Radius | 999px |
-| Typography | Button / Large |
-
----
-
-## Content Guidelines
-
-### Recommended
-
-Use concise, action-oriented labels.
-
-Examples:
-
-- Continue
-- Save
-- Confirm
-- Next
-- Done
-- Sign In
-
-### Avoid
-
-- Click Here
-- Press This Button
-- Submit Your Information Now
-
----
-
-## Accessibility
-
-### Minimum Touch Target
-
+Example:
 ```
-48 × 48 px
+⊞
 ```
 
-For mobile interfaces, ensure the touch target is at least **48 × 48 px**, even if the visible button is smaller.
+---
 
-### Text Contrast
+# Properties
 
-Button text should meet a minimum contrast ratio of **4.5:1** against its background.
+| Property | Type | Values | Description |
+|----------|------|--------|-------------|
+| Active | Boolean | True / False | Controls the enabled or disabled state. |
+| With Stroke | Boolean | True / False | Displays an outline instead of a filled background. |
+| Size | Variant | XS / S / M | Changes button dimensions. |
+| Type | Variant | Text / Icon | Switches between text button and icon button. |
+| Button Text | Text | Custom | Button label. Hidden when Type = Icon. |
+| Icon | Instance Swap | Any icon | Select icon from the Design System icon library. |
 
 ---
 
-## Design Tokens
+# States
 
-### Background
+## Active
 
-| Token |
-|--------|
-| `button.primary.background` |
+Primary action.
 
-### Text
-
-| Token |
-|--------|
-| `button.primary.label` |
-
-### Radius
-
-| Token |
-|--------|
-| `button.radius.full` |
-
-### Spacing
-
-| Token |
-|--------|
-| `spacing.md` |
-| `spacing.lg` |
-
-### Typography
-
-| Token |
-|--------|
-| `typography.button.small` |
-| `typography.button.medium` |
-| `typography.button.large` |
+- Filled background
+- White content
+- Interactive
 
 ---
 
-## Figma Component Structure
+## Disabled
+
+Unavailable action.
+
+- Reduced opacity
+- No interaction
+
+---
+
+## Outline
+
+Displayed when **With Stroke = True**
+
+- Transparent background
+- Primary stroke
+- Primary text/icon
+
+---
+
+# Design Tokens
+
+## Background
+
+| State | Token |
+|--------|-------|
+| Primary | `semantic.primary.boost-red` |
+| Disabled | `semantic.primary.boost-fade-red` |
+
+---
+
+## Content
+
+| Element | Token |
+|---------|-------|
+| Text | `semantic.text.inverse` |
+| Icon | `semantic.icon.inverse` |
+
+---
+
+## Border
+
+| State | Token |
+|--------|-------|
+| Outline | `semantic.border.primary` |
+
+---
+
+# Usage
+
+Use Buttons to initiate user actions.
+
+### Use Text Button when
+
+- Primary CTA
+- Form submission
+- Navigation
+- Confirmation actions
+
+### Use Icon Button when
+
+- Toolbar actions
+- Utility actions
+- Compact layouts
+
+---
+
+# Best Practices
+
+✅ Keep labels concise (1–3 words)
+
+✅ Use one primary button per action group
+
+✅ Use consistent sizing within the same screen
+
+✅ Prefer icons that exist in the Design System library
+
+---
+
+# Do
+
+- Use design tokens only.
+- Keep text centered.
+- Use the appropriate size for the available space.
+- Use Instance Swap for icons.
+
+---
+
+# Don't
+
+- Override colors manually.
+- Stretch buttons disproportionately.
+- Use multiple primary actions with equal emphasis.
+- Replace icons with unsupported custom assets.
+
+---
+
+# Component Properties
 
 ```
-Button
-└── Filled
-    ├── Small
-    ├── Medium
-    └── Large
+Active
+With Stroke
+Size
+Type
+Button Text
+Icon
 ```
 
-### Component Properties
-
-| Property | Values |
-|----------|--------|
-| Size | Small · Medium · Large |
-| State | Enabled · Hover · Pressed · Disabled · Focus |
-| Theme | Light · Dark |
-
 ---
 
-## Usage Guidelines
+# Version
 
-### Do
+Component: Button
 
-- Use one primary button per section.
-- Keep labels short and meaningful.
-- Use sentence case or title case consistently.
-- Maintain consistent sizing within the same interface.
-
-### Don't
-
-- Use multiple primary buttons together.
-- Write long sentences inside buttons.
-- Use vague labels such as "Click Here."
-- Reduce the touch target below accessibility guidelines.
-
----
-
-## Changelog
-
-### v1.0.0
-
-Initial release.
-
-**Included**
-
-- Filled Button
-- Small, Medium, and Large sizes
-- Design Token support
-- Light & Dark theme compatibility
+Version: 1.0.1

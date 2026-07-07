@@ -1,221 +1,32 @@
 {
-  "Corner Radius": {
-    "xs": {
-      "$type": "number",
-      "$value": 4,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149419",
-        "com.figma.scopes": [
-          "CORNER_RADIUS"
-        ]
-      }
-    },
-    "sm": {
-      "$type": "number",
-      "$value": 8,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149420",
-        "com.figma.scopes": [
-          "CORNER_RADIUS"
-        ]
-      }
-    },
-    "md": {
-      "$type": "number",
-      "$value": 16,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149421",
-        "com.figma.scopes": [
-          "CORNER_RADIUS"
-        ]
-      }
-    },
-    "lg": {
-      "$type": "number",
-      "$value": 24,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149422",
-        "com.figma.scopes": [
-          "CORNER_RADIUS"
-        ]
-      }
-    },
-    "full": {
-      "$type": "number",
-      "$value": 999,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149423",
-        "com.figma.scopes": [
-          "CORNER_RADIUS"
-        ]
-      }
-    }
+  "$description": "Boost Design System - Spacing & Radius Tokens",
+  "corner-radius": {
+    "xs": {"$type": "number","$value": 4},
+    "sm": {"$type": "number","$value": 8},
+    "md": {"$type": "number","$value": 16},
+    "lg": {"$type": "number","$value": 24},
+    "full": {"$type": "number","$value": 999}
   },
-  "Spacing": {
-    "xxs": {
-      "$type": "number",
-      "$value": 2,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:2517:4647",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "xs": {
-      "$type": "number",
-      "$value": 4,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:2517:4646",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "sm": {
-      "$type": "number",
-      "$value": 8,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149406",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "md": {
-      "$type": "number",
-      "$value": 16,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149411",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "lg": {
-      "$type": "number",
-      "$value": 24,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149412",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "xl": {
-      "$type": "number",
-      "$value": 32,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149413",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
-    "xxl": {
-      "$type": "number",
-      "$value": 40,
-      "$extensions": {
-        "com.figma.variableId": "VariableID:4209:149414",
-        "com.figma.scopes": [
-          "GAP"
-        ]
-      }
-    },
+  
+  "spacing": {
+    "xxs": {"$type": "number","$value": 2},
+    "xs": {"$type": "number","$value": 4},
+    "sm": {"$type": "number","$value": 8},
+    "md": {"$type": "number","$value": 16},
+    "lg": {"$type": "number","$value": 24},
+    "xl": {"$type": "number","$value": 32},
+    "xxl": {"$type": "number","$value": 40},
+    
     "shadow": {
-      "xxs": {
-        "$type": "number",
-        "$value": 2,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4214:227",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "xs": {
-        "$type": "number",
-        "$value": 4,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:200",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "sm": {
-        "$type": "number",
-        "$value": 8,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:201",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "md": {
-        "$type": "number",
-        "$value": 16,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:202",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "lg": {
-        "$type": "number",
-        "$value": 24,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:203",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "xl": {
-        "$type": "number",
-        "$value": 32,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:204",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "-xs": {
-        "$type": "number",
-        "$value": -4,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:5308",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "-sm": {
-        "$type": "number",
-        "$value": -8,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:5309",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      },
-      "-md": {
-        "$type": "number",
-        "$value": -16,
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:5310",
-          "com.figma.scopes": [
-            "EFFECT_FLOAT"
-          ]
-        }
-      }
+      "xxs": {"$type": "number","$value": 2},
+      "xs": {"$type": "number","$value": 4},
+      "sm": {"$type": "number","$value": 8},
+      "md": {"$type": "number","$value": 16},
+      "lg": {"$type": "number","$value": 24},
+      "xl": {"$type": "number","$value": 32},
+      "-xs": {"$type": "number","$value": -4},
+      "-sm": {"$type": "number","$value": -8},
+      "-md": {"$type": "number","$value": -16}
     }
-  },
-  "$extensions": {
-    "com.figma.modeName": "Mode 1"
   }
 }

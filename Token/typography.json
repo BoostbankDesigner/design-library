@@ -1,292 +1,46 @@
 {
+  "$description": "Boost Design System - Typography Tokens (Mobile)",
   "font": {
     "type": {
-      "primary": {
-        "$type": "string",
-        "$value": "Maven Pro",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149425",
-          "com.figma.scopes": [
-            "FONT_FAMILY"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "body": {
-        "$type": "string",
-        "$value": "Maven Pro",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149426",
-          "com.figma.scopes": [
-            "FONT_FAMILY"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "mono": {
-        "$type": "string",
-        "$value": "Overpass Mono",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149427",
-          "com.figma.scopes": [
-            "FONT_FAMILY"
-          ],
-          "com.figma.type": "string"
-        }
-      }
+      "primary": {"$type": "string","$value": "Maven Pro"},
+      "body": {"$type": "string","$value": "Maven Pro"},
+      "mono": {"$type": "string","$value": "Overpass Mono"}
     },
-    "weight": {
-      "regular": {
-        "$type": "string",
-        "$value": "Regular",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149428",
-          "com.figma.scopes": [
-            "FONT_STYLE"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "medium": {
-        "$type": "string",
-        "$value": "Medium",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149429",
-          "com.figma.scopes": [
-            "FONT_STYLE"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "semibold": {
-        "$type": "string",
-        "$value": "SemiBold",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149430",
-          "com.figma.scopes": [
-            "FONT_STYLE"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "bold": {
-        "$type": "string",
-        "$value": "Bold",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149431",
-          "com.figma.scopes": [
-            "FONT_STYLE"
-          ],
-          "com.figma.type": "string"
-        }
-      },
-      "extrabold": {
-        "$type": "string",
-        "$value": "ExtraBold",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149432",
-          "com.figma.scopes": [
-            "FONT_STYLE"
-          ],
-          "com.figma.type": "string"
-        }
-      }
+    
+    "weight":
+    {
+      "regular": {"$type": "string","$value": "Regular"},
+      "medium": {"$type": "string","$value": "Medium"},
+      "semibold": {"$type": "string","$value": "SemiBold"},
+      "bold": {"$type": "string","$value": "Bold"},
+      "extrabold": {"$type": "string","$value": "ExtraBold"}
     },
+    
     "size": {
-      "heading": {
-        "$type": "number",
-        "$value": 32,
-        "$description": "Hero / onboarding",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149433",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "title1": {
-        "$type": "number",
-        "$value": 24,
-        "$description": "Page title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149434",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "title2": {
-        "$type": "number",
-        "$value": 20,
-        "$description": "Section header",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149435",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "body1": {
-        "$type": "number",
-        "$value": 14,
-        "$description": "Default body",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149436",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "body2": {
-        "$type": "number",
-        "$value": 16,
-        "$description": "Card title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149437",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "caption": {
-        "$type": "number",
-        "$value": 12,
-        "$description": "Supporting text",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149438",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      },
-      "footnote": {
-        "$type": "number",
-        "$value": 10,
-        "$description": "Footnote / helper",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149439",
-          "com.figma.scopes": [
-            "FONT_SIZE"
-          ]
-        }
-      }
+      "heading": {"$type": "number","$value": 32,"$description": "Hero / onboarding"},
+      "title1": {"$type": "number","$value": 24,"$description": "Page title"},
+      "title2": {"$type": "number","$value": 20,"$description": "Section header"},
+      "body1": {"$type": "number","$value": 14,"$description": "Default body"},
+      "body2": {"$type": "number","$value": 16,"$description": "Card title"},
+      "caption": {"$type": "number","$value": 12,"$description": "Supporting text"},
+      "footnote": {"$type": "number","$value": 10,"$description": "Footnote / helper"}
     },
+    
     "line-height": {
-      "heading": {
-        "$type": "number",
-        "$value": 40,
-        "$description": "Hero / onboarding",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149440",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "title1": {
-        "$type": "number",
-        "$value": 30,
-        "$description": "Page title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149441",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "title2": {
-        "$type": "number",
-        "$value": 26,
-        "$description": "Section header",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149442",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "body1": {
-        "$type": "number",
-        "$value": 18,
-        "$description": "Card title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149443",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "body2": {
-        "$type": "number",
-        "$value": 20,
-        "$description": "Card title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4215:5287",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "caption": {
-        "$type": "number",
-        "$value": 16,
-        "$description": "Supporting text",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149444",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      },
-      "footnote": {
-        "$type": "number",
-        "$value": 14,
-        "$description": "Footnote / helper",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149445",
-          "com.figma.scopes": [
-            "LINE_HEIGHT"
-          ]
-        }
-      }
+      "heading": {"$type": "number","$value": 40,"$description": "Hero / onboarding"},
+      "title1": {"$type": "number","$value": 30,"$description": "Page title"},
+      "title2": {"$type": "number","$value": 26,"$description": "Section header"},
+      "body1": {"$type": "number","$value": 18,"$description": "Card title"},
+      "body2": {"$type": "number","$value": 20,"$description": "Card title"},
+      "caption": {"$type": "number","$value": 16,"$description": "Supporting text"},
+      "footnote": {"$type": "number","$value": 14,"$description": "Footnote / helper"}
     },
+    
     "letter-spacing": {
-      "tight": {
-        "$type": "number",
-        "$value": -0.20000000298023224,
-        "$description": "Hero / onboarding",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149446",
-          "com.figma.scopes": [
-            "LETTER_SPACING"
-          ]
-        }
-      },
-      "normal": {
-        "$type": "number",
-        "$value": 0,
-        "$description": "Page title",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149447",
-          "com.figma.scopes": [
-            "LETTER_SPACING"
-          ]
-        }
-      },
-      "wide": {
-        "$type": "number",
-        "$value": 0.20000000298023224,
-        "$description": "Section header",
-        "$extensions": {
-          "com.figma.variableId": "VariableID:4209:149448",
-          "com.figma.scopes": [
-            "LETTER_SPACING"
-          ]
-        }
-      }
+      "tight": {"$type": "number","$value": -0.2,"$description": "Hero / onboarding"},
+      "normal": {"$type": "number","$value": 0,"$description": "Page title"},
+      "wide": {"$type": "number","$value": 0.2,"$description": "Section header"}
+      
     }
-  },
-  "$extensions": {
-    "com.figma.modeName": "Mobile"
   }
 }

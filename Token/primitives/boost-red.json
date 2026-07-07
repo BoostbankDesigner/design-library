@@ -1,0 +1,54 @@
+{
+  "color": {
+    "boostRed": {
+      "50": {
+        "value": "#FFF0F3",
+        "type": "color"
+      },
+      "100": {
+        "value": "#FFDDE3",
+        "type": "color"
+      },
+      "200": {
+        "value": "#FFC1CC",
+        "type": "color"
+      },
+      "250": {
+        "value": "#F8A6B3",
+        "type": "color"
+      },
+      "300": {
+        "value": "#FF95A8",
+        "type": "color"
+      },
+      "400": {
+        "value": "#FF5976",
+        "type": "color"
+      },
+      "500": {
+        "value": "#FF264C",
+        "type": "color"
+      },
+      "600": {
+        "value": "#FC0631",
+        "type": "color"
+      },
+      "700": {
+        "value": "#EA0029",
+        "type": "color"
+      },
+      "800": {
+        "value": "#AF0523",
+        "type": "color"
+      },
+      "900": {
+        "value": "#900C23",
+        "type": "color"
+      },
+      "950": {
+        "value": "#50000E",
+        "type": "color"
+      }
+    }
+  }
+}

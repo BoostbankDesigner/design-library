@@ -106,8 +106,8 @@ Displayed when **With Stroke = True**
 
 | State | Token |
 |--------|-------|
-| Primary | `semantic.primary.boost-red` |
-| Disabled | `semantic.primary.boost-fade-red` |
+| Primary | `semantic.primary.boostRed.700` |
+| Disabled | `semantic.primary.boostRed.250` |
 
 ---
 
